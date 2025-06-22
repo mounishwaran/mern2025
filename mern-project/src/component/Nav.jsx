@@ -1,7 +1,7 @@
 import React from 'react'
 import './Nav.css'
 import {Link} from 'react-router-dom';
-import { Login } from '../pages/Login';
+import { Login } from './pages/Login';
 
 export const Nav = () => {
   return (
