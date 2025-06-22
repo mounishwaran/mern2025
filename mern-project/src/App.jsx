@@ -10,7 +10,9 @@ import {Route,Routes} from 'react-router-dom'
 import { Counter } from './component/Counter';
 import {Hooks} from './pages/Hooks';
 import { State } from './Hooks/State';
-import { Login } from './pages/login';
+import { Login } from './pages/Login';
+import { Ref } from './Hooks/Ref';
+import { Reducer } from './Hooks/Reducer';
 
 const App =()=> {
   var arr=["apple","banana","Orange"];
@@ -30,6 +32,8 @@ const App =()=> {
         <Route path='/hooks' element={<Hooks/>}/>
         <Route path='/state' element={<State/>}/>
         <Route path='/login' element={<Login/>}/>
+        <Route path='/Ref' element={<Ref/>}/>
+        <Route path='/Reducer' element={<Reducer/>}/>
       </Routes>
       
       
